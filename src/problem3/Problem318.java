@@ -12,8 +12,6 @@ public class Problem318 {
 			System.out.println("夏日です");
 		}else if(0 > num) {
 			System.out.println("真冬日です");
-		}else{
-			System.out.println("まあまあです");
 		}
 	}
 }
