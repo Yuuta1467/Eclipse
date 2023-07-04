@@ -6,9 +6,7 @@ public class Problem318 {
 		int num = (int)(Math.random()*46)-10;
 		System.out.println("摂氏"+ num +"度");
 		
-		if(33 <= num) {
-			System.out.println("真夏日で死にそうです");
-		}else if(30 <= num) {
+		if(30 <= num) {
 			System.out.println("真夏日です");
 		}else if(30 > num && 25<= num) {
 			System.out.println("夏日です");
@@ -18,5 +16,4 @@ public class Problem318 {
 			System.out.println("まあまあです");
 		}
 	}
-
 }
